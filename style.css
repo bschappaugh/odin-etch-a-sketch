@@ -1,14 +1,12 @@
-
-
 #grid-container {
     display: grid;
     grid-template-columns: repeat(16, 1fr);
     width: 960px;
-    height: auto;
+    height: 960px;
 }
 
 .grid-square {
-    height: 50px;
+    min-height: 10px;
     width: auto;
 }
 
